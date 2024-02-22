@@ -24,7 +24,7 @@ li {
      background: #171718;
      text-align: center;
      margin-inline: auto;
-     margin-bottom: 248px;
+     padding-bottom: 248px;
 }
 
 .header {
@@ -125,6 +125,7 @@ li {
 }
 
 .btn {
+     display: inline-block;
      border-radius: 5px;
      background: #5C62EC;
      color: #FFF;
@@ -134,11 +135,9 @@ li {
      line-height: 24px;
      letter-spacing: 0.15px;
      padding: 12px 28px;
-     margin-bottom: 248px;
 }
 
 .project {
-     max-width: 1400px;
      margin-inline: auto;
 }
 
@@ -165,7 +164,9 @@ li {
 }
 
 .images {
-     background-image: url(img/project/background.svg);
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     height: 349px;
+     border-radius: 10px;
 }
 
 .project_name {
@@ -175,6 +176,8 @@ li {
      font-weight: 700;
      line-height: 130%;
      letter-spacing: -0.5px;
+     padding-top: 15px;
+     padding-left: 20px;
 }
 
 footer {
@@ -186,14 +189,16 @@ footer {
 }
 
 .foter__icons {
-     display: inline-flex;
+     display: flex;
      align-items: center;
      justify-content: center;
+     gap: 30px;
+     padding-top: 60px;
 }
 
 .footer_title {
      color: white;
      text-align: center;
-     margin-top: 126px;
-     margin-bottom: 50px;
+     padding-top: 31px;
+     padding-bottom: 50px;
 }
